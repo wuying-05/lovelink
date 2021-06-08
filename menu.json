@@ -1,0 +1,66 @@
+{
+  "button": [
+    {
+      "name": "爱联网",
+      "sub_button": [
+        {
+          "type": "view",
+          "name": "关于我们",
+          "url": "http://lovelink.net.cn"
+        },
+        {
+          "type": "view",
+          "name": "爱联网",
+          "url": "http://lovelink.net.cn"
+        },
+        {
+          "type": "view",
+          "name": "本省婚恋群",
+          "key": "V1001",
+          "url": "http://lovelink.net.cn/location-rqcode"
+        }
+      ]
+    },
+    {
+      "name": "推广员",
+      "sub_button": [
+        {
+          "type": "view",
+          "name": "注册推广员",
+          "url": "http://lovelink.net.cn/register-promoter"
+        },
+        {
+          "type": "click",
+          "name": "我的海报",
+          "key": "V1002"
+        },
+        {
+          "type": "view",
+          "name": "粉丝和积分",
+          "url": "http://lovelink.net.cn/fans-and-integral"
+        }
+      ]
+    },
+    {
+      "name": "我的",
+      "sub_button": [
+        {
+          "type": "view",
+          "name": "注册会员",
+          "url": "http://lovelink.net.cn/register"
+        },
+        {
+          "type": "view",
+          "name": "我的认证",
+          "url": "http://lovelink.net.cn/verified"
+        },
+        {
+          "type": "view",
+          "name": "我的客服",
+          "key": "V1006",
+          "url": "http://lovelink.net.cn/customer-rqcode"
+        }
+      ]
+    }
+  ]
+}

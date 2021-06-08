@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta itemprop="name" content="爱联网"/>
+    <meta itemprop="image" content="http://ailianwang.oss-cn-beijing.aliyuncs.com/home.jpg" />
+    <meta name="description" itemprop="description" content="心相动，爱互联--爱联666" />
+    <!-- <script src="https://webapi.amap.com/maps?v=2.0&key=7393e49382b910a78c89b85c3f0292b6"></script> -->
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>爱联网</title>
+    <%= process.env.NODE_ENV === 'production' ? `
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?7f443e9d871027d7cb9d7322a1432905";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+    ` : '' %>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but LoveLink doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

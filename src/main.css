@@ -1,0 +1,8 @@
+/* 隐藏 input type=number 中的箭头 */
+.form-item-input input::-webkit-outer-spin-button,
+.form-item-input input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.form-item-input input[type="number"]{
+  -moz-appearance: textfield;
+}
